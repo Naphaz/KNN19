@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-st.header("Naphat")
+st.header("การจำแนกข้อมูลดออกไม้")
 st.image("./img/m.jpg")
 
 col1, col2, col3 = st.columns(3)
