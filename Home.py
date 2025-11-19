@@ -6,4 +6,4 @@ import matplotlib.pyplot as plt
 
 
 st.header("Naphat")
-st.imge("./img/m.jpg")
+st.image("./img/m.jpg")
