@@ -23,7 +23,7 @@ with col3:
    st.image("./img/iris3.jpg") 
 
 html_7 = """
-<div style="background-color:##FF6347;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<div style="background-color:#FF6347;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>สถิติข้อมูลดอกไม้</h5></center>
 </div>
 """
@@ -47,3 +47,11 @@ if st.button("แสดงการจินตทัศน์ข้อมูล
    st.button("ไม่แสดงข้อมูล")
 else:
     st.write("ไม่แสดงข้อมูล")
+
+html_8 = """
+<div style="background-color:#FF6347;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<center><h5>ทำนายข้อมูล</h5></center>
+</div>
+"""
+st.markdown(html_8, unsafe_allow_html=True)
+st.markdown("")
